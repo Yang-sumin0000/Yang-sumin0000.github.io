@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #header{
+            background-color:rosybrown ;
+            width: 100%;
+            height: 80px;
+        }
+        #nav{
+            background-color: peachpuff;
+            width:30%;
+            height: 300px;
+            float:left;
+        }
+        #content{
+            background-color: tan;
+            width: 70%;
+            height: 300px;
+            float:right;
+        }
+        #footer{
+            background-color: thistle;
+            width:100%; height:50px;
+            clear:both;
+            font: italic 13px "Times New Roman",serif;
+            color:white; line-height: 50px;
+        }
+        
+        h1,#footer{text-align:center;}
+        p.cont1,p.cont2,h2,h3{padding: 15px;}
+        li,p.img,p.imgname{ text-indent:40px; }
+
+        a:link{color:palevioletred;}
+        a:visited{color:green;}
+        a:active{color:blue;}
+        a:hover{color:red;}
+    </style>
+
+</head>
+<body>
+    <div id = "header">
+        <h1>My Blog Page</h1>
+    </div>
+
+    <div id = "nav">
+        <ul><h2>Links</h2></ul>
+        <li>
+            <a href="https://www.naver.com" target="_blank"> 네이버</a>
+        </li>
+        <li>
+            <a href="https://www.google.com" target="_blank">구글</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com" target="_blank">유튜브</a>
+        </li>
+
+        <p class= "img" ><img src="해바라기.png" width="130" height="130" alt="해바라기"></p>
+        <p class= "imgname" > 해바라기</p>
+    
+    </div>
+    
+    <div id="content">
+        <h3>Semantic Tags</h3>
+        <p class="cont1" >시멘틱 요소들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+        
+        <h3>div와 span</h3>
+        <p class="cont2" >div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. 
+            span요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+    </div>
+
+    <div id = "footer">
+        <p>상명대학교_202110947</p>
+    </div>
+
+
+    </body>
+</html>
